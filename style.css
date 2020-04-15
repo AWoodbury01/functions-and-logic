@@ -1,0 +1,25 @@
+#header .nav .nav-left {
+    float: left;
+}
+
+@media screen and (max-width: 1050px)
+#header .nav .nav-left {
+    width: 100%;
+}
+
+#header .nav .nav-left, #header .nav .nav-pages, #header .nav .nav-right {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+@media screen and (max-width: 1050px)
+#header .nav .nav-left, #header .nav .nav-pages, #header .nav .nav-right {
+    position: relative;
+    height: 50px;
+    padding-right: 0;
+}
